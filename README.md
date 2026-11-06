@@ -1,6 +1,6 @@
 # watchtoys.app
 
-The website for Watch Toys: Fidget & Games, an Apple Watch app by Attic Studio. Plain HTML hosted on GitHub Pages, with its CSS and script inline and no build step on the host. `tools/page.py` writes `index.html` from one toy list, so the fifteen toys' copy stays in one place.
+The website for Watch Toys: Fidget & Games, an Apple Watch app by Beautiful Distraction. Plain HTML hosted on GitHub Pages, with its CSS and script inline and no build step on the host. `tools/page.py` writes `index.html` from one toy list, so the fifteen toys' copy stays in one place.
 
 ## Release state
 

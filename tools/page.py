@@ -379,8 +379,8 @@ BODY = f'''<header class="hero">
 <footer class="foot">
   <div class="wrap">
     {LOGO}
-    <nav class="foot-links" aria-label="Footer"><a href="https://messyp.github.io/attic-studio/watch-toys/">Support</a><a href="https://messyp.github.io/attic-studio/watch-toys/privacy/">Privacy policy</a><a href="https://messyp.github.io/attic-studio/">Attic Studio</a></nav>
-    <p class="legal">© 2026 Attic Studio. Watch Toys is not made or endorsed by Apple. Apple, the Apple logo, <span class="nb">Apple Watch</span>, <span class="nb">Apple Watch Ultra</span> and <span class="nb">Digital Crown</span> are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc., registered in the U.S. and other countries.</p>
+    <nav class="foot-links" aria-label="Footer"><a href="https://beautifuldistraction.com/watch-toys/">Support</a><a href="https://beautifuldistraction.com/watch-toys/privacy/">Privacy policy</a><a href="https://beautifuldistraction.com/">Beautiful Distraction</a></nav>
+    <p class="legal">© 2026 Beautiful Distraction. Watch Toys is not made or endorsed by Apple. Apple, the Apple logo, <span class="nb">Apple Watch</span>, <span class="nb">Apple Watch Ultra</span> and <span class="nb">Digital Crown</span> are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc., registered in the U.S. and other countries.</p>
     <p class="legal">This site uses no cookies or analytics.</p>
   </div>
 </footer>
