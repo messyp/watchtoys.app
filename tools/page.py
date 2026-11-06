@@ -413,12 +413,8 @@ SECTIONS = "".join(section_thumbs(g, i % 2 == 1) for i, g in enumerate(GROUPS))
 print("index.html", len(SITE))
 
 if len(sys.argv) > 1 and sys.argv[1] == "preview":
-    # The artifact wraps its own document skeleton round the page, and shows where the film goes.
+    # The artifact wraps its own document skeleton round the page.
     body = BODY
-    a, b = body.index("<!--FILM"), body.index("/FILM-->") + len("/FILM-->")
-    body = body[:a] + '''<section class="film"><div class="wrap"><h2>On a real wrist</h2>
-      <div style="aspect-ratio:1920/824;border-radius:20px;border:1px dashed #ffffff55;display:grid;place-items:center;color:var(--dim);text-align:center;padding:16px">
-      Slot for your wrist film. Hidden on the live page until it exists.</div></div></section>''' + body[b:]
     page = f'''<title>Watch Toys Buttons</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <style>{STYLE}</style>
