@@ -25,15 +25,15 @@ GROUPS = [
              play="Turn the <span class=\"nb\">Digital Crown</span>"),
     ]),
     dict(id="press", name="Pop and press", colour="#f08a24", toys=[
-        dict(id="pop", name="Pop", free=True, hook="A popper that never runs out.",
-             body="Push every dome through and a fresh sheet pops up straight away. Prefer bubble wrap? It's in Settings.",
-             play="Tap"),
-        dict(id="memory", name="Memory", free=False, hook="One more each round.",
-             body="Ten bubbles glow in a pattern, like a handheld Pop It game. Tap it back. How long a sequence can you remember?",
-             play="Tap"),
         dict(id="bath", name="Bath", free=False, hook="A bubble bath to push about.",
              body="Push the foam around, pop bubbles with a tap, and turn the <span class=\"nb\">Digital Crown</span> to run the tap.",
              play="Finger, tap and <span class=\"nb\">Digital Crown</span>"),
+        dict(id="memory", name="Memory", free=False, hook="One more each round.",
+             body="Ten bubbles glow in a pattern, like a handheld Pop It game. Tap it back. How long a sequence can you remember?",
+             play="Tap"),
+        dict(id="pop", name="Pop", free=True, hook="A popper that never runs out.",
+             body="Push every dome through and a fresh sheet pops up straight away. Prefer bubble wrap? It's in Settings.",
+             play="Tap")
     ]),
     dict(id="games", name="Tiny games", colour="#f2c531", toys=[
         dict(id="maze", name="Maze", free=True, hook="Roll the ball home.",
