@@ -1,0 +1,4 @@
+raw/
+.DS_Store
+.claude/
+tools/capture.patch
