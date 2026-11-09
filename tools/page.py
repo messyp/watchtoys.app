@@ -213,8 +213,15 @@ h2{font:700 clamp(34px,4.4vw,58px)/1.04 var(--display);letter-spacing:-.025em;te
 .foot-links a{color:var(--dim);text-underline-offset:3px}
 .foot-links a:hover{color:var(--text)}
 .legal{color:#8a899e;font-size:13.5px;max-width:92ch}
+.foot .wrap{grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:20px clamp(24px,5vw,64px)}
+.foot-main{display:grid;gap:14px;min-width:0}
+.maker{display:block;transition:transform .2s}
+.maker:hover{transform:rotate(2deg) scale(1.04)}
+.maker img{display:block;width:clamp(170px,16vw,214px);height:auto}
 
 @media (max-width:900px){
+  .foot .wrap{grid-template-columns:minmax(0,1fr)}
+  .maker{justify-self:start}
   body{font-size:17px}
   .hero-row{grid-template-columns:minmax(0,1fr);gap:30px}
   .hero .device{width:min(84%,330px);justify-self:center}
@@ -378,10 +385,13 @@ BODY = f'''<header class="hero">
 
 <footer class="foot">
   <div class="wrap">
+    <div class="foot-main">
     {LOGO}
     <nav class="foot-links" aria-label="Footer"><a href="https://beautifuldistraction.com/watch-toys/">Support</a><a href="https://beautifuldistraction.com/watch-toys/privacy/">Privacy policy</a><a href="https://beautifuldistraction.com/">Beautiful Distraction</a></nav>
     <p class="legal">© 2026 Beautiful Distraction. Watch Toys is not made or endorsed by Apple. Apple, the Apple logo, <span class="nb">Apple Watch</span>, <span class="nb">Apple Watch Ultra</span> and <span class="nb">Digital Crown</span> are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc., registered in the U.S. and other countries.</p>
     <p class="legal">This site uses no cookies or analytics.</p>
+    </div>
+    <a class="maker" href="https://beautifuldistraction.com/"><img src="assets/beautiful-distraction.png" alt="Beautiful Distraction" width="213" height="89"></a>
   </div>
 </footer>
 '''
