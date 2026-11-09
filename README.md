@@ -1,6 +1,6 @@
 # watchtoys.app
 
-The website for Watch Toys: Fidget & Games, an Apple Watch app by Beautiful Distraction. Plain HTML hosted on GitHub Pages, with its CSS and script inline and no build step on the host. `tools/page.py` writes `index.html` from one toy list, so the fifteen toys' copy stays in one place.
+The website for Watch Toys: Fidget & Games, an Apple Watch app by Beautiful Distraction. Plain HTML hosted on Cloudflare Pages (project `watchtoys-app`, also at watchtoys-app.pages.dev), with its CSS and script inline and no build step on the host. Every push to `main` deploys. It moved off GitHub Pages in November 2026 because GitHub never issued the domain's HTTPS certificate; `watchtoys.app` and `www` are Pages custom domains, so their DNS records are Cloudflare's own and proxied. `tools/page.py` writes `index.html` from one toy list, so the fifteen toys' copy stays in one place.
 
 ## Release state
 
